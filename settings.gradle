@@ -1,0 +1,4 @@
+rootProject.name = 'MyGradleProject'
+include 'src:test:runners'
+findProject(':src:test:runners')?.name = 'runners'
+
